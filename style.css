@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #eeeeea;
+  background-color: #eee;
 }
 
 .wrapper {
@@ -39,14 +39,14 @@ body {
 }
 
 .card > .row {
-  color: white;
+  color: #fff;
   display: flex;
   flex-wrap: nowrap;
 }
 
 .card > .row > .icon {
   background: #223;
-  color: white;
+  color: #fff;
   border-radius: 50%;
   width: 50px;
   display: flex;
@@ -86,17 +86,14 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-  background-image: url(./foto\ 1.PNG);
+  background-image: url(./foto-1.jpg);
 }
-
 .card[for="c2"] {
-  background-image: url(./foto\ 2.PNG);
+  background-image: url(./foto-2.jpeg);
 }
-
 .card[for="c3"] {
-  background-image: url(./foto\ 3.PNG);
+  background-image: url(./foto-3.jpeg);
 }
-
 .card[for="c4"] {
-  background-image: url(./foto\ 4.PNG);
+  background-image: url(./foto-4.jpeg);
 }
